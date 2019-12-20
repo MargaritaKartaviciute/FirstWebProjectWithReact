@@ -1,0 +1,332 @@
+body {
+    background-color:  rgba(255,230,230, 0.1) ;
+    color: #000000;
+}
+.field{
+    background-color: 	 rgba(255,230,230, 0.1);
+    color: #000000;
+}
+.header{
+    background-color: rgba(204,224,255,1);
+    color: #000000;
+}
+#nav-header{
+    color: #000000;
+    font-weight: bold;
+}
+.nav-text{
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.filter .dropbtn {
+    background-color: white;
+    color: black;
+    padding: 2px;
+    border: 1px solid gray;
+    font-size: 14px;
+    min-width: 80px;
+    cursor: pointer;
+}
+
+.filter {
+    background-color: #f1f1f1;
+    padding: 2%;
+}
+
+.filter .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.filter .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    left: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.filter .dropdown-content span {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    min-width: 80px;
+    cursor: pointer;
+}
+
+.filter .dropdown-content span:hover {background-color: #f1f1f1}
+
+.filter .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#profile-font{
+    font:cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+  }
+  .popup_inner {
+    position: absolute;
+    left: 35%;
+    right: 35%;
+    top: 20%;
+    bottom: 60%;
+    margin: auto;
+    background: white;
+  }
+  .popup_inner_for_mail {
+    position: absolute;
+    left: 35%;
+    right: 35%;
+    top: 20%;
+    bottom: 45%;
+    margin: auto;
+    background: white;
+  }
+  .mail {
+    resize: none
+  }
+#profile-font_2{
+  font: 100 50px/1.3 'Just Another Hand', Helvetica, sans-serif;
+  color: #337ab7;
+  text-align: left;
+}
+.change-profile-button{
+    position: absolute;
+    left: 20px;
+    top: 165px;
+    z-index: 1;  
+}
+#profile-endorse-label{
+    font-size:100%;
+    display: inherit;
+}
+#profile-endorse-badget{
+    font-size: 20px;
+    background-color: #337ab7;
+}
+/* =================
+Show ofers with filter styles
+===================
+*/
+.cost-strip {
+    display: inline-block;
+    background: rgb(35, 137, 255);
+    color: #fff;
+    font-size: 20px;
+    height: 45px;
+    border-right: 1px solid lightblue;
+    border-bottom: 1px solid lightblue;
+    padding: 0 6px;
+    line-height: 45px;
+    text-align: center;
+    overflow: visible;
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.strip-tick {
+    position: absolute;
+    float: left;
+    height: 0;
+    width: 0;
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+    border-left: 5px solid transparent;
+    border-top: 5px solid blue;
+    bottom: -6px;
+    left: 0;
+}
+.just-box1 {
+    height: 258px;
+    padding: 10px;
+    font-size: 11px;
+    color: #4E4B49;
+    float: left;
+    cursor: pointer;
+    border: 1px solid #fff;
+    margin: 1px;
+    text-align: left;
+    position: relative;
+}
+.just-box {
+    padding: 5px;
+    float: left;
+    height: 400px;
+    width: 300px;
+}
+/*
+Offer View
+*/
+.caption:hover{
+    box-shadow: 0 0 15px 1px rgba(0, 140, 186, 0.5);
+}
+.thumbnail_img {
+    height:500px;
+    width:100%;
+}
+#offerView-font{
+    font:cursive;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+}
+.name-strip {
+    right: 15px;
+    display: inline-block;
+    background:rgb(35, 137, 255);
+    color: #fff;
+    font-size: 30px;
+    height: 45px;
+    border-right: 1px solid lightblue;
+    border-bottom: 1px solid lightblue;
+    line-height: 45px;
+    overflow: visible;
+    position: absolute;
+    margin-right: -5px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.strip2-tick {
+    position: absolute;
+    float: right;
+    height: 0;
+    width: 0;
+    font-size: 0;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+    border-right: 5px solid transparent;
+    border-top: 5px solid blue;
+    bottom: -6px;
+    right: 0;
+}
+.offerView-Profile{
+    background-image: url(https://image.freepik.com/free-photo/watercolor-paper-texture_1194-5416.jpg);
+    border-radius: 15px 50px;
+}
+.offerView{
+    padding-top: 100px;
+}
+.badge{
+    background-color: rgb(35, 137, 255);
+    padding-left: 20px;
+}
+.offerView-features{
+    margin-top:20px;
+    margin-left: 10px;
+    font:cursive;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bold;
+}
+.offerView-button{
+    margin-top:30px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(35, 137, 255);
+    font-weight: bold;
+    color:white;
+   
+}
+.offerView-glyph{
+ padding-left: 10px;
+}
+.map-offer{
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+.center{
+    text-align: center !important; 
+    align-content: center!important;
+    display: block!important;
+    justify-content: center!important;
+}
+.text-right{
+    text-align: right!important;
+}
+.livingPeople-center{
+    align-content:center;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.livingPeople-centerButton{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    align-content: center;
+    background-color: rgb(35, 137, 255);
+}
+.offers-center{
+    padding-left:10%;
+}
+.offers-mapButton-space{
+    margin-top:20px;
+    margin-left: 10%;
+}
+.myOffer{
+    padding-top: 20px;
+}
+.myOffer-button{
+    margin-bottom: 5px;
+    margin-top:5px; 
+    margin-left: 50px;
+}
+.myOffer-glyph{
+color: #337ab7;
+margin-left: 20px;
+margin-right: 20px;
+}
+.myOffer-h{
+    color: #0a2d66;
+}
+.myOffer-newOffer{
+    position: fixed;
+    right: 0px;
+    z-index: 1;
+}
+.myOffer-newOffer2{
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-left:50%;
+
+}
+.myOffer-h2{
+    padding-top:50px;
+    text-align: center;
+    color: #0a2d66;
+}
+
+.img-responsive {
+    width: 256px;
+}
